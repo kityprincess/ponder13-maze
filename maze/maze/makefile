@@ -1,11 +1,12 @@
 ###############################################################
 # Program:
 #     Week 13, Graph
-#     Brother XXXXX, CS265
+#     Brother JonesL, CS235
 # Author:
-#     <your name here>
+#     Matthew Burr - 3 hours
+#	  (Kimberly Stowe, Shayla Nelson, Brian Lopez)
 # Summary:
-#     <put a description here>
+#     A Graph class used to implement a Maze program
 ###############################################################
 
 ##############################################################

@@ -1,3 +1,13 @@
+/***********************************************************************
+* Component:
+*    Week 13, Graph
+* Author:
+*    Matthew Burr
+* Summary:
+*    Defines a Graph class (a collection of vertices with edges between
+*    them)
+************************************************************************/
+
 #ifndef GRAPH_H
 #define GRAPH_H
 

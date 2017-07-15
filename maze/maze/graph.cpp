@@ -1,3 +1,12 @@
+/***********************************************************************
+* Component:
+*    Week 13, Graph
+* Author:
+*    Matthew Burr
+* Summary:
+*    Implements a Graph class
+************************************************************************/
+
 #include "graph.h"
 #include <vector>
 #include <queue>

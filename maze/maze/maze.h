@@ -6,6 +6,7 @@
  *    Br. Helfrich
  * Summary:
  *    Draw and solve a maze
+ *    Note: reverted to using STL vector
  ************************************************************************/
 
 #ifndef MAZE_H
