@@ -125,6 +125,7 @@
     <ClInclude Include="vertex.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="graph.cpp" />
     <ClCompile Include="maze.cpp" />
     <ClCompile Include="week13.cpp" />
   </ItemGroup>
