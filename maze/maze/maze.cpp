@@ -38,14 +38,14 @@ void solveMaze()
  *    g     - the graph containing the maze
  *    path  - the path from the upper left corner to the lower right
  ***********************************************/
-void drawMaze(const Graph & g, const Vector <Vertex> & path)
+void drawMaze(const Graph & g, const std::vector <Vertex> & path)
 {
    CVertex v;
 
    // copy everything into a set
    Set <CVertex> s;
    for (int i = 0; i < path.size(); i++)
-      s.insert((CVertex)path(i));
+      s.insert((CVertex)path[i]);
 
    // draw the top border
    cout << "+  ";

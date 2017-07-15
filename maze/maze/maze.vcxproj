@@ -119,11 +119,12 @@
     <None Include="makefile" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="graph.h" />
     <ClInclude Include="maze.h" />
+    <ClInclude Include="set.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="assignment13.cpp" />
     <ClCompile Include="maze.cpp" />
     <ClCompile Include="week13.cpp" />
   </ItemGroup>
