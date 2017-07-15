@@ -30,7 +30,17 @@ public:
    Vertex(const Vertex & v) { i = v.i;    }
  
    // set (the validation part)
-   bool set(int index) { if (index >= 0 && index < getMax()) this->i = index; }
+   bool set(int index) { 
+      if (index >= 0 && index < getMax())
+      {
+         this->i = index;
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+  }
 
    // handle max
    int getMax() const   { return max;                       }
